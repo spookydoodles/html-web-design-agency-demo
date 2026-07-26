@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-size: 5rem;
+
 }
 
 footer {
@@ -19,3 +20,57 @@ footer {
   color: midnightblue;
 }
 
+span {
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+p {
+  text-align: justify;
+}
+
+@media (max-width: 680px) {
+.logo {
+  width: 25%;
+}
+h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .tile-image {
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  footer > p{
+    clear: both;
+    text-align: right;
+    color: midnightblue;
+  }
+
+}
